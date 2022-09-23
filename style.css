@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{   
+   
+    min-width: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(#4169E1,aquamarine);
+  
+}
+#header {
+    
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#header .logo {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+#header ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+#header ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+#header ul li .active{
+    background:#fff;
+    color: #4169E1;
+}
+#header ul li a:hover{
+    background:#fff;
+    color: #4169E1;
+
+}
+.box{
+    display: flex;
+    
+}
+.boxofquote{
+    width: 300px;
+    height: 400px;
+    margin-top: 30vh;
+    margin-left: 60px;
+    justify-content: center;
+    border-radius: 10%;
+}
+.boxofquote.texty{
+    background-color: transparent;
+    width: 500px;
+    color: #fff;
+}
+.boxofquote img{
+    height: 80%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 10px;
+
+}
+.boxofquote p {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: smaller;
+    color: white;
+}
+.texter {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #changeQuote{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(96, 101, 236);
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+    border-color: white;
+    border-style: none;
+    display: none;
+  }
+.boxofquote.changecolor{
+    background-color: transparent;
+}
+.colorChanger{
+    height: 70px;
+    width: 180px;
+    background-color: rgb(243, 100, 40);
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+    border-color: white;
+    border-style: none;
+}
+.colorChangerBack{
+    height: 70px;
+    width: 180px;
+    background-color: rgb(40, 135, 243);
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+    border-color: white;
+    border-style: none;
+    display: none;
+}
